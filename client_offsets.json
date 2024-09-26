@@ -1,0 +1,14 @@
+{
+    "dwEntityList": "0x1F26A28",
+    "dwGameEntitySystem": "0x2139988",
+    "dwGameEntitySystem_highestEntityIndex": "0x1520",
+    "dwGameRules": "0x20E00A0",
+    "dwGlowManager": "0x20E0260",
+    "dwLocalPlayerController": "0x20D2768",
+    "dwLocalPlayerPawn": "0x1DCF7C8",
+    "dwPrediction": "0x1DCF680",
+    "dwSensitivity": "0x20E0B78",
+    "dwSensitivity_sensitivity": "0x40",
+    "dwViewMatrix": "0x20E43D0",
+    "dwViewRender": "0x20E4CD0"
+}
