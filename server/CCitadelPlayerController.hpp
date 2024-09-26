@@ -24,7 +24,7 @@ namespace source2sdk::server
     // Registered alignment: 0x8
     // Alignment: 0x8
     // Standard-layout class: false
-    // Size: 0xa78
+    // Size: 0xab0
     // Has VTable
     // 
     // static metadata: MNetworkVarNames "EPlayerPlayState m_ePlayState"
@@ -126,7 +126,9 @@ namespace source2sdk::server
         bool m_bLastCommsWasDoublePing; // 0xa6c        
         [[maybe_unused]] std::uint8_t pad_0xa6d[0x3]; // 0xa6d
         int32_t m_nGuideBotNumTasksComplete; // 0xa70        
-        [[maybe_unused]] std::uint8_t pad_0xa74[0x4];
+        bool m_bHasBeenReportedAsCheater; // 0xa74        
+        bool m_bHasGCACKedCheaterReport; // 0xa75        
+        [[maybe_unused]] std::uint8_t pad_0xa76[0x3a];
         
         // Datamap fields:
         // void CCitadelPlayerControllerResourceDataThink; // 0x0
@@ -134,5 +136,5 @@ namespace source2sdk::server
     #pragma pack(pop)
     
     // Cannot assert offsets of fields in CCitadelPlayerController because it is not a standard-layout class
-    static_assert(sizeof(CCitadelPlayerController) == 0xa78);
+    static_assert(sizeof(CCitadelPlayerController) == 0xab0);
 };
