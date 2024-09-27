@@ -48,6 +48,7 @@ namespace source2sdk::server
     // static metadata: MNetworkVarNames "bool m_bNoDeathEnabled"
     // static metadata: MNetworkVarNames "bool m_bFastCooldownsEnabled"
     // static metadata: MNetworkVarNames "bool m_bStaminaCooldownsEnabled"
+    // static metadata: MNetworkVarNames "bool m_bUnlimitedAmmoEnabled"
     // static metadata: MNetworkVarNames "bool m_bInfiniteResourcesEnabled"
     // static metadata: MNetworkVarNames "bool m_bFlexSlotsForcedUnlocked"
     // static metadata: MNetworkVarNames "ECitadelMatchMode m_eMatchMode"
@@ -108,10 +109,12 @@ namespace source2sdk::server
         // metadata: MNetworkEnable
         bool m_bStaminaCooldownsEnabled; // 0x10b        
         // metadata: MNetworkEnable
-        bool m_bInfiniteResourcesEnabled; // 0x10c        
+        bool m_bUnlimitedAmmoEnabled; // 0x10c        
         // metadata: MNetworkEnable
-        bool m_bFlexSlotsForcedUnlocked; // 0x10d        
-        [[maybe_unused]] std::uint8_t pad_0x10e[0x2]; // 0x10e
+        bool m_bInfiniteResourcesEnabled; // 0x10d        
+        // metadata: MNetworkEnable
+        bool m_bFlexSlotsForcedUnlocked; // 0x10e        
+        [[maybe_unused]] std::uint8_t pad_0x10f[0x1]; // 0x10f
         // metadata: MNetworkEnable
         client::ECitadelMatchMode m_eMatchMode; // 0x110        
         // metadata: MNetworkEnable
