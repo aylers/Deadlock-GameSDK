@@ -1,12 +1,12 @@
 {
-    "dwBuildNumber": 0x52FBF4,
-    "dwNetworkGameClient": 0x52ECE0,
-    "dwNetworkGameClient_clientTickCount": 0x370,
-    "dwNetworkGameClient_deltaTick": 0x27C,
-    "dwNetworkGameClient_isBackgroundMap": 0x28144F,
-    "dwNetworkGameClient_maxClients": 0x240,
-    "dwNetworkGameClient_serverTickCount": 0x374,
-    "dwNetworkGameClient_signOnState": 0x230,
-    "dwWindowHeight": 0x611F0C,
-    "dwWindowWidth": 0x611F08,
+    "dwBuildNumber": "0x52FBF4",
+    "dwNetworkGameClient": "0x52ECE0",
+    "dwNetworkGameClient_clientTickCount": "0x370",
+    "dwNetworkGameClient_deltaTick": "0x27C",
+    "dwNetworkGameClient_isBackgroundMap": "0x28144F",
+    "dwNetworkGameClient_maxClients": "0x240",
+    "dwNetworkGameClient_serverTickCount": "0x374",
+    "dwNetworkGameClient_signOnState": "0x230",
+    "dwWindowHeight": "0x611F0C",
+    "dwWindowWidth": "0x611F08"
 }
